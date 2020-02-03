@@ -1,0 +1,287 @@
+
+.gallery {
+  background-color: gray;
+  // grid-column: full-start / full-end;
+
+  display: grid;
+  /*grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);*/
+  grid-template: repeat(7, 5vw) / repeat(8, 1fr);
+
+
+  grid-gap: 1.5rem;
+  padding: 1.5rem;
+
+
+  @media screen and(max-width: 768px){
+    grid-gap: .5rem;
+  }
+
+  &-item {
+      &--1 {
+          grid-row: 1 / span 2;
+          grid-column: 1 / span 2;
+      }
+
+      &--2 {
+          grid-row: 1 / span 3;
+          grid-column: 3 / span 3;
+      }
+
+      &--3 {
+          grid-row: 1 / span 2;
+          grid-column: 6 / 7;
+      }
+
+      &--4 {
+          grid-row: 1 / span 2;
+          grid-column: 7 / -1;
+      }
+
+      &--5 {
+          grid-row: 3 / span 3;
+          grid-column: 1 / span 2;
+      }
+
+      &--6 {
+          grid-row: 4 / span 2;
+          grid-column: 3 / span 2;
+      }
+
+      &--7 {
+          grid-row: 4 / 5;
+          grid-column: 5 / 6;
+      }
+
+      &--8 {
+          grid-row: 3 / span 2;
+          grid-column: 6 / span 2;
+      }
+
+      &--9 {
+          grid-row: 3 / span 3;
+          grid-column: 8 / -1;
+      }
+
+      &--10 {
+          grid-row: 6 / span 2;
+          grid-column: 1 / 2;
+      }
+
+      &--11 {
+          grid-row: 6 / span 2;
+          grid-column: 2 / span 2;
+      }
+
+      &--12 {
+          grid-row: 6 / span 2;
+          grid-column: 4 / 5;
+      }
+
+      &--13 {
+          grid-row: 5 / span 3;
+          grid-column: 5 / span 3;
+      }
+
+      &--14 {
+          grid-row: 6 / span 2;
+          grid-column: 8 / -1;
+      }
+  }
+
+  &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ReactModal__Overlay .ReactModal__Overlay--after-open{
+  // position: fixed !important;
+  // top: 0 !important;
+  // left: 50% !important;
+  // transform: translate(-50%, -50%);
+  // background-color: rgba(192, 192, 192, 0.849) !important;
+  // border:none !important;
+  // width: 70%;
+  // height: 100vh !important;
+  // overflow: hidden !important;
+  // padding: 0 !important;
+
+}
+
+
+// .ReactModal__Content{
+//   height: 50vh !important;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .ReactModal__Content .ReactModal__Content--after-open  {
+// position:relative;
+// }
+
+
+// .ReactModal__Body--open {
+//   overflow-y: hidden;
+// }
+
+// .ReactModalPortal > div {
+//   opacity: 0;
+// }
+// .ReactModalPortal .ReactModal__Overlay{
+//   transition: opacity .3s ease-in-out;
+//   position: fixed;
+//   top:0;
+//   z-index: 200;
+//   background-color: rgba(192, 192, 192, 0.849) !important;
+// }
+// .ReactModalPortal .ReactModal__Overlay--after-open{
+//   opacity: 1;
+//   overflow:hidden;
+// }
+// .ReactModalPortal .ReactModal__Overlay--before-close{
+//   opacity: 0;
+// }
+
+// .ReactModal__Content{
+//   position: fixed !important;
+//   top: 50% !important;
+//   left: 50% !important;
+//   transform: translate(-50%, -50%);
+//   background-color: rgba(192, 192, 192, 0.849) !important;
+//   border:none !important;
+//   width: 70%;
+//   height: 100vh !important;
+//   overflow: hidden !important;
+//   padding: 0 !important;
+
+//   @media screen and(max-width: 768px){
+//     width: 100%;
+//     // top: 70% !important;
+//     background-color: black !important;
+//     height: 50vh !important;
+//   }
+// }
+
+// .modal {
+//   height: 100vh;
+//   @media screen and(max-width: 768px){
+//     width: 100%;
+//   }
+
+//   &-button{
+//     position: fixed;
+//     z-index: 300;
+//     top: .5rem;
+//     left: .5rem;
+//     // width: 2.5rem;
+//     background:white;
+//     border-radius: 5rem;
+//     color: black;
+//     border:none;
+//     font-size: 2rem;
+//     cursor:pointer;
+
+//     @media screen and(max-width: 768px){
+//       // width: 1rem;
+//       font-size: 1rem;
+//     }
+//   }
+
+//   &-img{
+//     width: 100%;
+//     height: 100vh;
+//     // border: 2px solid red;
+//     // border-bottom: none;
+//     @media screen and(max-width: 768px){
+//     width: 200%;
+//     }
+//   }
+// }
+
+
+.noScroll{
+  overflow:hidden;
+}
+
+
+
+.modal{
+  position:fixed;
+  top:0;
+  z-index: 101;
+  background-color:rgba(0, 0, 0, 0.801);
+  width:100%;
+  height: 101vh;
+  border-bottom: blue;
+  overflow:hidden;
+
+  @media screen and(max-width: 768px){
+    background-color: #000;
+  }
+
+  &-close{
+    background-color: black;
+    border-radius: 5rem;
+    border: none;
+    color:white;
+    font-size: 2rem;
+    margin: 1rem;
+
+    @media screen and(max-width: 768px){
+      margin: 0 0 5rem 0;
+      padding: 0;
+    }
+  }
+
+  &-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+  }
+
+  &-img{
+    @media screen and(max-width: 768px){
+      width: 30rem;
+    }
+  }
+
+}
+

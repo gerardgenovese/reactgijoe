@@ -1,0 +1,42 @@
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInandUpLeft{
+  0%{
+    transform:translate(-50%, 100%);
+    opacity: 0;
+  }
+  100%{
+
+    transform:translate(0, 0);
+    opacity:1;
+  }
+}
+@keyframes fadeInandUp{
+  0%{
+    transform:translate(0, 100%);
+    opacity: 0;
+  }
+  100%{
+    transform:translate(0, 0);
+    opacity:1;
+  }
+}
+
+@keyframes slideIn {
+  0%{
+    transform:translate(-90%, 0);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0, 0);
+    opacity:1;
+  }
+}
