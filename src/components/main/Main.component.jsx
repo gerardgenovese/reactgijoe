@@ -14,20 +14,20 @@ class Main extends React.Component {
     
         <div className="main">
           <div className="main-bg-sky">
-            <img src={window.location.origin + "/img/main/mainbgsky.svg"} alt="joe"/>
+            <img src="img/main/mainbgsky.svg" alt="joe"/>
           </div>
           <div className="main-bg-midTrees">
-            <img  src={window.location.origin + "/img/main/mainbgmidtrees.svg"} alt="joe"/>
+            <img  src="img/main/mainbgmidtrees.svg" alt="joe"/>
           </div>
           <div className="main-bg-joe">
-            <img  src={window.location.origin + "/img/main/mainbgjoe1.svg"} alt="joe"/>
+            <img  src="img/main/mainbgjoe1.svg" alt="joe"/>
           </div>
         
           <div className="main-bg-tree1">
-            <img src={window.location.origin + "/img/main/mainbgtree1.svg"} alt="joe"/>
+            <img src="img/main/mainbgtree1.svg" alt="joe"/>
           </div>
           <div className="main-bg-bush">
-            <img src={window.location.origin + "/img/main/mainbgbush.svg"} alt="joe"/>
+            <img src="img/main/mainbgbush.svg" alt="joe"/>
           </div>
         </div>
 
