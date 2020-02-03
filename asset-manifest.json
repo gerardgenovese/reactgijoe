@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactgijoe/static/css/main.4bc102f9.chunk.css",
-    "main.js": "/reactgijoe/static/js/main.5be9621e.chunk.js",
-    "main.js.map": "/reactgijoe/static/js/main.5be9621e.chunk.js.map",
+    "main.css": "/reactgijoe/static/css/main.4c77e10e.chunk.css",
+    "main.js": "/reactgijoe/static/js/main.a45834e5.chunk.js",
+    "main.js.map": "/reactgijoe/static/js/main.a45834e5.chunk.js.map",
     "runtime-main.js": "/reactgijoe/static/js/runtime-main.ac64596d.js",
     "runtime-main.js.map": "/reactgijoe/static/js/runtime-main.ac64596d.js.map",
     "static/js/2.b2fe8253.chunk.js": "/reactgijoe/static/js/2.b2fe8253.chunk.js",
     "static/js/2.b2fe8253.chunk.js.map": "/reactgijoe/static/js/2.b2fe8253.chunk.js.map",
     "index.html": "/reactgijoe/index.html",
-    "precache-manifest.35f2e671f0045fbb1105493740eb01b4.js": "/reactgijoe/precache-manifest.35f2e671f0045fbb1105493740eb01b4.js",
+    "precache-manifest.d0360f2d7cce2a312e21aa0c020aff06.js": "/reactgijoe/precache-manifest.d0360f2d7cce2a312e21aa0c020aff06.js",
     "service-worker.js": "/reactgijoe/service-worker.js",
-    "static/css/main.4bc102f9.chunk.css.map": "/reactgijoe/static/css/main.4bc102f9.chunk.css.map",
+    "static/css/main.4c77e10e.chunk.css.map": "/reactgijoe/static/css/main.4c77e10e.chunk.css.map",
     "static/js/2.b2fe8253.chunk.js.LICENSE": "/reactgijoe/static/js/2.b2fe8253.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.ac64596d.js",
     "static/js/2.b2fe8253.chunk.js",
-    "static/css/main.4bc102f9.chunk.css",
-    "static/js/main.5be9621e.chunk.js"
+    "static/css/main.4c77e10e.chunk.css",
+    "static/js/main.a45834e5.chunk.js"
   ]
 }
