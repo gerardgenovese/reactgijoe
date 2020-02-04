@@ -44,7 +44,7 @@ class Nav extends React.Component {
                 <i className="fas fa-bars nav-i" onClick={this.clickMenu}></i>
                 {/* <div className="nav-brand">G.I.JOE</div>  */}
               </div>
-              <img className="nav-logo" src={window.location.origin + "/img/logo.png"} alt="logo" /> 
+              <img className="nav-logo" src="img/nav/logo.png" alt="logo" /> 
             </div>
           </div>
 
@@ -53,7 +53,7 @@ class Nav extends React.Component {
           <div className={this.state.menu ? "nav-menu" : "nav-menu-hidden"} >
             <div className= {this.state.menu ? "nav-menu-links" : "nav-menu-links-hidden"} >
               <div className="nav-menu-nav">
-                <img className="nav-menu-nav--icon" src={window.location.origin + "/img/heads.png"} alt="nav-icon" />
+                <img className="nav-menu-nav--icon" src="img/nav/heads.png" alt="nav-icon" />
               </div>
 
 
