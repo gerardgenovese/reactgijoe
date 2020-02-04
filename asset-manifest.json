@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactgijoe/static/css/main.4c77e10e.chunk.css",
+    "main.css": "/reactgijoe/static/css/main.abc81024.chunk.css",
     "main.js": "/reactgijoe/static/js/main.7bcbc7fd.chunk.js",
     "main.js.map": "/reactgijoe/static/js/main.7bcbc7fd.chunk.js.map",
     "runtime-main.js": "/reactgijoe/static/js/runtime-main.ac64596d.js",
@@ -8,15 +8,15 @@
     "static/js/2.b2fe8253.chunk.js": "/reactgijoe/static/js/2.b2fe8253.chunk.js",
     "static/js/2.b2fe8253.chunk.js.map": "/reactgijoe/static/js/2.b2fe8253.chunk.js.map",
     "index.html": "/reactgijoe/index.html",
-    "precache-manifest.a9c348d0e05a0e4dfee238bb11bd17f7.js": "/reactgijoe/precache-manifest.a9c348d0e05a0e4dfee238bb11bd17f7.js",
+    "precache-manifest.e37f17287a982962f3bffb96714e8f67.js": "/reactgijoe/precache-manifest.e37f17287a982962f3bffb96714e8f67.js",
     "service-worker.js": "/reactgijoe/service-worker.js",
-    "static/css/main.4c77e10e.chunk.css.map": "/reactgijoe/static/css/main.4c77e10e.chunk.css.map",
+    "static/css/main.abc81024.chunk.css.map": "/reactgijoe/static/css/main.abc81024.chunk.css.map",
     "static/js/2.b2fe8253.chunk.js.LICENSE": "/reactgijoe/static/js/2.b2fe8253.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.ac64596d.js",
     "static/js/2.b2fe8253.chunk.js",
-    "static/css/main.4c77e10e.chunk.css",
+    "static/css/main.abc81024.chunk.css",
     "static/js/main.7bcbc7fd.chunk.js"
   ]
 }

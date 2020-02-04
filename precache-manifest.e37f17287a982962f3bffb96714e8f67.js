@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7044f04b04cc72e6aa707ccebe69cd1",
+    "revision": "d94f69447baac8df8d964099003e81df",
     "url": "/reactgijoe/index.html"
   },
   {
-    "revision": "fdbc04989273f0b8d3a1",
-    "url": "/reactgijoe/static/css/main.4c77e10e.chunk.css"
+    "revision": "13d9bc99c868c054a57a",
+    "url": "/reactgijoe/static/css/main.abc81024.chunk.css"
   },
   {
     "revision": "6d26cade278791f6853c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactgijoe/static/js/2.b2fe8253.chunk.js.LICENSE"
   },
   {
-    "revision": "fdbc04989273f0b8d3a1",
+    "revision": "13d9bc99c868c054a57a",
     "url": "/reactgijoe/static/js/main.7bcbc7fd.chunk.js"
   },
   {
